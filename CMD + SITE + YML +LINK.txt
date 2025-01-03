@@ -1,0 +1,17 @@
+COMMANDS :
+
+
+pip install telebot pymongo aiohttp
+chmod +x *
+python3 sharp.py
+
+
+----------------------------------------------------------------------
+SITE LINK : https://app.buddy.works/login
+----------------------------------------------------------------------
+JOIN : @SHARPCRACKS
+----------------------------------------------------------------------
+SHARE WITH CREDIT ^ COPYRYT 2025-2028 , WW/HPNB
+
+
+THANK U ALL DONE 
