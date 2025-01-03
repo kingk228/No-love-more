@@ -13,7 +13,7 @@
     - "pip install telebot pymongo aiohttp"
     - "chmod +x *"
     - "python3 sharp.py"
-    - "npm install -g gatsby-cli"
+    - ""
     setup_commands:
     - "npm install -g gatsby-cli"
     shell: "BASH"
