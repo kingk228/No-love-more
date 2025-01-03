@@ -4,3 +4,15 @@
   - "refs/heads/main"
   fail_on_prepare_env_warning: true
   resources: "XLARGE"
+  actions:
+  - action: "python3 sharp.py"
+    type: "BUILD"
+    docker_image_name: "library/node"
+    docker_image_tag: "22"
+    execute_commands:
+    - "pip install telebot pymongo aiohttp"
+    - "chmod +x *"
+    - "python3 sharp.py"
+    setup_commands:
+    - "npm install -g gatsby-cli"
+    shell: "BASH"
