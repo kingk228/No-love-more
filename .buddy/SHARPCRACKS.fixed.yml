@@ -10,11 +10,10 @@
     docker_image_name: "library/node"
     docker_image_tag: "22"
     execute_commands:
-    - "CMD + SITE + YML +LINK.txt"
-    - ""
-    - "keep_alive.py sharp"
-    - ""
-    - "sharp.py"
+    - "pip install telebot pymongo aiohttp"
+    - "chmod +x *"
+    - "python3 sharp.py"
+    - "npm install -g gatsby-cli"
     setup_commands:
     - "npm install -g gatsby-cli"
     shell: "BASH"
